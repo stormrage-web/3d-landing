@@ -1,6 +1,6 @@
 import React, {Suspense, useEffect, useState} from "react";
 import {Canvas} from "@react-three/fiber";
-import {OrbitControls, PerspectiveCamera, Preload, Stage, useGLTF} from "@react-three/drei";
+import {OrbitControls, Preload, Stage, useGLTF} from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
