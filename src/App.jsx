@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { Experience, Hero, Navbar, StarsCanvas } from "./components";
+import { Experience, Hero, Navbar, StarsCanvas, Works } from "./components";
 import Gift from "./components/Gift.jsx";
 
 const App = () => {
@@ -13,9 +13,7 @@ const App = () => {
         </div>
         {/*<About />*/}
         <Experience />
-        {/*<Tech />*/}
-        {/*<Works />*/}
-        {/*<Feedbacks />*/}
+        <Works />
         <div className='relative z-0'>
           <Gift />
           <StarsCanvas />
