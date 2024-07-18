@@ -27,12 +27,12 @@ import {
 
 export const navLinks = [
 	{
-		id: "wishes",
-		title: "Wishes",
+		id: "experience",
+		title: "Experience",
 	},
 	{
-		id: "gift",
-		title: "Gift",
+		id: "welcome",
+		title: "Welcome",
 	},
 ];
 

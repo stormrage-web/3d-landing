@@ -6,7 +6,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-const Gift = () => (
+const Welcome = () => (
 	<div
 		className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
 	>
@@ -35,4 +35,4 @@ const Gift = () => (
 	</div>
 );
 
-export default SectionWrapper(Gift, "gift");
+export default SectionWrapper(Welcome, "welcome");
