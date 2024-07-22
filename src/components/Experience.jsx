@@ -82,4 +82,4 @@ const Experience = () => {
 	);
 };
 
-export default SectionWrapper(Experience, "wishes");
+export default SectionWrapper(Experience, "experience");
