@@ -39,10 +39,10 @@ const Hero = () => {
 
                 <div>
                     <h1 className={`${styles.heroHeadText} text-white`}>
-                        Bae, <span className='text-[#915EFF]'>happy birthday to you!</span>
+                        Let's see my <span className='text-[#915EFF]'>portfolio</span>
                     </h1>
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                        Read some wishes and take your gift{'<3'}
+                        Read about some experience and take contacts{'<3'}
                     </p>
                 </div>
             </div>
