@@ -5,7 +5,7 @@ import {OrbitControls, Preload, Stage, useGLTF} from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({isMobile, isTablet}) => {
-    const {nodes, materials} = useGLTF('./kepasta/kepasta.glb')
+    const {nodes, materials} = useGLTF('./kepasta/kepasta2.glb')
     return (
         <mesh
             geometry={nodes.kepasta_1.geometry}
